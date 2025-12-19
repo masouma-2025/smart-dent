@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+DE+SAS:wght@100..400&family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!-- icon -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+     <!-- css -->
+      <link rel="stylesheet" href="./designe/style.css">
+</head>
+<body>
+  <header>
+ <nav class="navbar bg-dark navbar-expand-sm fixed-top">
+  <div class="container-fluid ">
+    <img src="./photo/logo3.png" alt="" style="width: 100px;height: 84px;/" class="img-fluid ms-5">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mynavbar">
+      <ul class="navbar-nav ms-auto d-flex justify-content-center align-items-center">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link fw-bold">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="services.html" class="nav-link fw-bold">Services</a>
+        </li>
+        <li class="nav-item">
+          <a href="about.html" class="nav-link fw-bold">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="portfolio.html" class="nav-link fw-bold">Smile Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a href="pricing.html" class="nav-link fw-bold">pricing</a>
+        </li>
+        <li class="nav-item">
+          <a href="team.html" class="nav-link fw-bold">Team</a>
+        </li>
+        <li class="nav-item">
+          <a href="blog.html" class="nav-link fw-bold">blog</a>
+        </li>
+        <li class="nav-item ">
+          <a href="contac.html" class="nav-link "><button type="button" class="btn btn-primary">Schedule now</button></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+</header>
+<main class="contact">
+ <section class=" container-fluid p-0 mb-5">
+   <div class="contact-header d-flex justify-content-start align-items-center rounded-4 ">
+     <div class="container text-white w-100 w-lg-50 m-5">
+        <h1>Contact us</h1>
+        <h3 class="fw-bold m-4">We’re always welcoming new patients and are excited you found us.</h3>
+        <button type="button" class="btn btn-primary btn-rounded-circle m-4">Schedule now</button>
+     </div>
+   </div>
+ </section>
+
+   <!-- contact part 1 -->
+   <section class="contact-form mt-5 p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 col-lg-5 me-4">
+                <div>
+                <p>Please fill out this form and a member of our team will contact you shortly.</p>
+                <p><strong>No referral necessary!</strong></p>
+                <p>Please call us if you have an emergency: </p>
+                <a href="tel:+93791234567" class="fw-bold d-block"> <i class="bi bi-telephone-fill " class="px-2"></i> +93 79 123 4567</a>
+                </div>
+                
+                <div class="mt-3">
+                  <h4>Opening Hours</h4>
+                   <ul class="list-unstyled">
+                    <li>Monday – Thurs: 7am-3pm</li>
+                    <li>Friday: 7am-2pm</li>
+                    <li>Monday : 8:00am-3pm</li>
+                    <li>Tues – Thurs: 7am-3pm</li>
+                    <li>Friday: 7am-2pm</li>
+                   </ul>
+                </div>
+            </div>
+
+            <div class="col-sm-12 col-lg-6 bg-secondary p-5">
+              <small>We take our patients’ privacy seriously.
+                 Please avoid providing any personal health or sensitive information.
+              </small>
+              
+              <form>
+                 <div class="mb-3">
+                  <label for="PationtName" class="form-label">Name:</label>
+                  <input type="text" class="form-control" id="PationtName" aria-describedby="nameHelp">
+                 </div>
+                  <div class="mb-3">
+                    <label for="pationtPhone" class="form-label">Password</label>
+                    <input type="text" class="form-control" id="pationtPhone">
+                  </div>
+                    <div class="mb-3">
+                      <label for="pationtEmail" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="pationtEmail" aria-describedby="emailHelp">
+                    </div>
+                      <div class="form-radio mb-3">
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="remember"> New Patient
+                        </label>
+                        <label class="form-check-label">
+                          <input class="form-check-input" type="radio" name="remember"> Existiong Patient
+                        </label>
+                      </div>
+                      <div class="mb-3">
+                        <label for="slectDate" class="form-label">Perferred Date:</label>
+                        <input type="date" class="form-control" id="slectDate" aria-describedby="nameHelp">
+                      </div>
+                      <div class="mb-3">
+                        <label class="form-check-label mb-3">Preferred Time:</label>
+                        <select class="form-select">
+                          <option selected>Time</option>
+                          <option value="1">Morning</option>
+                          <option value="1">Afternoon</option>
+                        </select>
+                      </div>
+                <button type="submit" class="btn btn-dark">Submit</button>
+              </form>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="patientInformation my-5 p-5">
+    <div class="container mt-5">
+      <h2 class="m-5 text-center">Patient Information</h2>
+      <div class="row g-4">
+        <div class="col-sm-12 col-lg-4">
+             <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title mb-5 fs-1">______<i class="bi bi-file-earmark"></i>______ </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Medical History</h6>
+                <p class="card-text"><small>Complete your medical history form before your appointment.</small></p>
+                <a href="#" class="card-link mb-5"><small>Download Form</small></a>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+           <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title mb-5 fs-1">______<i class="bi bi-file-earmark-richtext"></i>______ </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Consent Forms</h6>
+                <p class="card-text"><small>Read and sign financial, appointment, and consent forms.</small></p>
+                <a href="#" class="card-link"><small>Download Form</small></a>
+              </div>
+            </div>
+        </div>
+        <div class="col-sm-12 col-lg-4">
+          <div class="card text-center">
+              <div class="card-body">
+                <h5 class="card-title mb-5 fs-1">____<i class="bi bi-credit-card-2-back"></i>____ </h5>
+                <h6 class="card-subtitle mb-2 text-muted">Consent Forms</h6>
+                <p class="card-text"><small>Read and sign financial, appointment, and consent forms.</small></p>
+                <a href="#" class="card-link"><small>Download Form</small></a>
+              </div>
+            </div>
+        </div>
+        
+      </div>
+    </div>
+   </section>
+
+</main>
+<footer>
+  <div class="container-fluid">
+    
+    <div class="row bg-dark p-5 d-flex justify-content-center align-items-center">
+      
+      <div class="col-6 col-lg-3">
+        <ul class="list-unstyled">
+          <li class="fw-bold">Office</li>
+          <li><a href="#">71032 Giles Road</a></li>
+          <li><a href="#">Suite 1</a></li>
+          <li><a href="#">Ih Vista, OE 68128</a></li>
+          <li><a href="#">Call / Text +93 79 123 4567</a></li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <ul class="list-unstyled">
+          <li class="fw-bold">Hours</li>
+          <li>Monday: 9am–5pm</li>
+          <li>Tuesday: 9am–5pm</li>
+          <li>Thursday: 9am–5pm</li>
+          <li>Friday: 9am–5pm</li>
+          <li>Saturday: 8am–1pm</li>
+        </ul>
+      </div>
+
+      <div class="col-6 col-lg-3">
+        <ul class="list-unstyled">
+          <li class="fw-bold">Services</li>
+          <li><a href="services.html">General Dentistry</a></li>
+          <li><a href="services.html">Surgical</a></li>
+          <li><a href="services.html">Orthodontic</a></li>
+          <li><a href="services.html">Dental Implants</a></li>
+        </ul>
+      </div>
+
+     <div class="col-6 col-lg-3">
+        <img src="./photo/logo3.png" class="img-fluid" alt="">
+      </div>
+      <hr>
+    </div>
+    <div class="row text-center bg-dark ">
+      <p>&copy;2025 The Smart Dent. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
